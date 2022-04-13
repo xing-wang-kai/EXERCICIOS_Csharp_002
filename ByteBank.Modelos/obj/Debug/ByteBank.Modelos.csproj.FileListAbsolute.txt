@@ -1,0 +1,7 @@
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.AssemblyReference.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
+C:\Users\kaiuc\OneDrive\Documentos\大学资料\DEV prog\Csharp\AluraStudio-CSharpPT5-b0bdb1e09d442e7dd25ca018d02d2ad5ce9c4405\ByteBank\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml

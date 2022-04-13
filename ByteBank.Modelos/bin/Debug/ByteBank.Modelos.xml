@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ByteBank.Modelos</name>
+    </assembly>
+    <members>
+        <member name="T:ByteBank.Modelos.ContaCorrente">
+            <summary>
+            Define uma Conta Corrente do Banco ByteBank.
+            </summary>
+        </member>
+        <member name="M:ByteBank.Modelos.ContaCorrente.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Cria uma instancia de conta correte com os argumentos necessários
+            </summary>
+            <param name="agencia">Representa a agencia e precisa ser maior que 0</param>
+            <param name="numero">Representa o número da conta é precisa ser maior que 0</param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="F:ByteBank.Modelos.ParceiroComercial._AutenticarHelper">
+                     puxo o method da biblioteca dentro da mesma biblioteca para autenticar a senha
+                    desta meneira consigo usar este metodo para facilitar a manutenção do mesmo
+        </member>
+    </members>
+</doc>

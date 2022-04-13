@@ -1,0 +1,2 @@
+# EXERCICIOS_Csharp_002
+ Aula Csharp OO ARRAY STRINGS ERROR
