@@ -24,6 +24,14 @@ namespace ByteBank.SistemaAgencia
         }
         public void remover( ContaCorrente item)
         {
+            for(int i = 0; i < _proxpos; i++)
+            {
+                ContaCorrente itemAtual = _items[i];
+                if (_items[i].Equals(item))
+                {
+                    _items[i] = null;
+                }
+            }
 
         }
         private void verificarCapacidade(int tamanho)
@@ -32,7 +40,12 @@ namespace ByteBank.SistemaAgencia
             {
                 return;
             }
-            ContaCorrente[] novoArray = new ContaCorrente[tamanho*2];
+            int novoTamanho = _items.Length * 2;
+            if(novoTamanho < tamanho)
+            {
+                novoTamanho = tamanho;
+            }
+            ContaCorrente[] novoArray = new ContaCorrente[novoTamanho];
             for(int i = 0; i < _items.Length; i++)
             {
                 novoArray[i] = _items[i];

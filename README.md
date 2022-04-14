@@ -159,16 +159,22 @@ para contar o total de valores que tem em um array usamos .length;
 
 ## Criando uma class que adicina valores ao Array;
 
+Este código adiciona tamanho a um novo Array toda vez que o tamanho do array é insuficiente
+para conter todo conteúdo adicionado no Array;
+
+
 ```csharp
 public class Itens{
 	private int[] _itens;
 	private int _next;
 	
-	public Itens(){
-		_itens = new int[5];
+	public Itens(int tamanho = 5){
+		_itens = new int[tamanho];
 		_next = 0;
 	}
 	public void adicionar(int valor){
+
+	capacidade(_next+1);
 		_itens[_next] = valor;
 		_next ++;
 	}
@@ -177,7 +183,8 @@ public class Itens{
 		if(_itens.length >= tamanhoNecessario){
 			return;
 		}
-		int[] _newItens = new int[tamanhoNecessario]
+		int novoTamanho = _itens.lenght*2;
+		int[] _newItens = new int[novoTamanho]
 
 		for(int i = 0; i < _itens.length; i++ ){
 			_newItens[i] = _itens[i];
